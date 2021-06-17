@@ -5,7 +5,7 @@
 }
 body{
     display: flex;
-    min-height: 85vh;
+    min-height: 80vh;
     background : linear-gradient(red , blue) no-repeat;
     font-family: sans-serif;
     align-items: center;
@@ -13,7 +13,7 @@ body{
 }
 .container{
     margin-top: 50px;
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -21,8 +21,9 @@ body{
    
 }
 .calculator{
+    position: relative;
     margin-top: 20px;
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -53,12 +54,6 @@ button:hover{
 #back{
     position: absolute;
     width: 102px;
-    top: 139px;
-    right: 39.75%;
+    right: 7px;
+    top: 32px;
 }
-@media only screen and (max-width: 600px) {
-    #back{
-        top: 139px;
-        right: 21.75%;
-    }
-  }
